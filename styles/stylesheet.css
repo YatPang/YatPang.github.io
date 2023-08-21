@@ -1,8 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #121212;
     color: #BBE1FA;
+    background-color: #151515;
     font-family: Georgia, "Times New Roman", Times, serif;
     scrollbar-width: thin;
     scrollbar-color: #510074 #008810;
@@ -21,6 +19,10 @@ body::-webkit-scrollbar-thumb {
     background-color: #510074;
     border-radius: 8px;
     border: none;
+}
+
+h1 {
+    padding-left: 1%;
 }
 
 .main-header {
@@ -51,7 +53,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
-    display: flex;
     overflow-x: auto;
     white-space: nowrap;
     padding: 20px;
@@ -67,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 /*#510074*/
 
 .container::-webkit-scrollbar {
-width: 8px; 
+    width: 8px; 
 }
 
 .container::-webkit-scrollbar-track {
@@ -98,6 +99,7 @@ width: 8px;
     text-align: center;
     align-content: center;
     border-radius: 15px;
+    display: inline-block;
 }
 
 .logo {
@@ -199,6 +201,12 @@ width: 8px;
     transition: color .3s;
 }
 
+.btn-primary:active {
+    --bs-btn-color: #0d6efd;
+    --bs-btn-bg: #9b9b9b;
+    transition: color .3s;
+}
+
 .btn-back {
     color: #fff;
     --bs-btn-bg: #6a00ff;
@@ -225,7 +233,7 @@ width: 8px;
     width: 75%;
 }
 
-.TOM-img {
+.project-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,6 +249,7 @@ width: 8px;
     padding-left: 1%;
     padding-bottom: 1%;
     padding-top: .1%;
+    padding-right: 1%;
     border-radius: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
