@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #510074;
+    background-color: #07da00e3;
     border-radius: 8px;
     border: none;
 }
@@ -63,7 +63,6 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     scrollbar-width: thin;
     scrollbar-color: #008810 #008810;
-    cursor:crosshair;
 }
 /*#510074*/
 
@@ -121,7 +120,7 @@ h1 {
 }
 
 .card-content {
-    background-color: #2f4e84;
+    background-color: #2f4e8400;
     font-size: 14px;
     color: #e1e1e1;
     overflow-y: auto;
