@@ -99,6 +99,7 @@ h1 {
     align-content: center;
     border-radius: 15px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .logo {
@@ -231,6 +232,7 @@ h1 {
     height: 75%;
     width: 75%;
 }
+
 
 .project-img {
     display: flex;
