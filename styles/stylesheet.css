@@ -263,8 +263,8 @@ h1 {
     border: 5px #6a00ff;
     border-style: solid;
     border-radius: 15px;
-    height: 75%;
-    width: 75%;
+    height: 30%;
+    width: 30%;
 }
 
 
@@ -307,3 +307,18 @@ h1 {
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul.icons li {
+    display: inline-block;
+    padding: 0 2em 0 0;
+  }
+  
+  ul.icons li:last-child {
+    padding-right: 0 !important;
+  }
