@@ -25,12 +25,14 @@ h1 {
     padding-left: 1%;
 }
 
-.main-header {
+.nav {
     color: #BBE1FA;
     text-align: left;
-    background-color: #2a0459;
-    border-radius: 5px;
+    background-color: #2a045900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: auto;
+    border-bottom: solid;
+    position: sticky;
 }
 
 .textbox-content {
@@ -49,6 +51,10 @@ h1 {
 .textbox {
     background-color: #2a0459;
     border-radius: 15px;
+}
+
+.intro {
+    background-color: #2a045900;
 }
 
 .container {
